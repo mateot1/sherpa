@@ -20,7 +20,7 @@ Additionally, after your scan call, you must make sure that you also call this l
 ```
 ruby ${SCRIPT_DIR}/coverage.rb ${XCODE_SCHEME}
 ```
-**NOTE:** You make ensure that this line comes AFTER the scan command.
+**NOTE:** You must ensure that this line comes AFTER the scan command.
 
 Therefore, you need to ensure that this section of code matches:
 ```
